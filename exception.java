@@ -41,16 +41,12 @@ public class exception
         } catch (Exception e) {
             System.out.println("Exception "+e.getMessage());
         }
-       
-        System.out.println();
         
         try {
             son s =new son(40,50);
         } catch (Exception e) {
             System.out.println("Exception "+e.getMessage());
         }
-
-        System.out.println();
 
         try {
             son s =new son(-30,10);
@@ -59,3 +55,4 @@ public class exception
         }
     }
 }
+
